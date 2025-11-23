@@ -289,6 +289,7 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    height: 100%;
 }
 
 .im2 {
@@ -303,7 +304,9 @@ input[type="checkbox"] {
 .song {
     display: flex;
     align-items: center;
-    margin-top: -25px; 
+    margin-top: -25px;
+    height: 100%;
+    
 }
 
 .im2:hover {
@@ -547,7 +550,6 @@ input[type="checkbox"] {
 
 
 .end {
-    height: 55px;
     border-radius: 0 0 25px 25px;
     background-image: linear-gradient(to right, #808080 , purple);
     display: flex;
@@ -604,4 +606,10 @@ input[type="checkbox"] {
     gap: 20px;
     justify-content: flex-end;
     cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
